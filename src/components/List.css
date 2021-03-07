@@ -1,0 +1,76 @@
+.tours {
+  width: 650px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.tours h1 {
+  color: var(--title);
+  font-size: 40px;
+  padding: 5px;
+}
+.tours .line {
+  width: 100px;
+  border-top: 4px solid var(--subTitle);
+  margin-bottom: 30px;
+}
+
+.tour {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.tour img {
+  width: 650px;
+  height: 350px;
+}
+.tour .tour-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+.tour .tour-title p {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--title);
+}
+.tour .tour-title span {
+  font-weight: bold;
+  font-size: 17px;
+  background-color: var(--backgroundSubTitle);
+  color: var(--subTitle);
+}
+.tour .tour-description {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 30px;
+}
+.tour .tour-description p {
+  color: var(--text);
+}
+.tour .tour-description .read {
+  font-size: 15px;
+  padding: 0 10px;
+  color: var(--subTitle);
+  border: none;
+}
+
+.tour .hide {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #800000;
+  padding: 5px;
+  margin: 0 auto;
+  color: #800000;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}

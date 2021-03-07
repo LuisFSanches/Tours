@@ -1,0 +1,11 @@
+.loading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.loading-container h1 {
+  font-size: 50px;
+  color: var(--title);
+}

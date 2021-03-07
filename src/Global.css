@@ -1,0 +1,14 @@
+/*----- COLORS ------*/
+
+* {
+  --title: #1a2e42;
+  --subTitle: #56a3dc;
+  --backgroundSubTitle: #ccddebb0;
+  --text: #8d8882;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
